@@ -6,5 +6,5 @@ RUN apt-get update && apt-get install -y \
 	rdesktop \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
-
+#summa ivan irukan
 ENTRYPOINT [ "rdesktop" ]
